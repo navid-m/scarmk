@@ -1,0 +1,27 @@
+site_name: Scar Language Documentation
+site_url: https://scar-lang.org
+repo_url: https://github.com/navid-m/scar
+
+nav:
+   - Home: index.md
+   - Core Constructs:
+        - Data Types: datatypes.md
+        - Variables: variables.md
+        - Control Flow: controlflow.md
+        - Functions: functions.md
+        - Classes: classes.md
+        - Access Modifiers: accessmods.md
+   - Toolchain:
+        - Compiler: compiler.md
+        - Interpreter: interpreter.md
+        - Debugger: debugger.md
+        - Package Manager: package-manager.md
+   - About:
+        - License: license.md
+theme:
+   name: material
+   logo: img/icon.png
+   palette:
+      primary: black
+      accent: blue
+      scheme: slate
