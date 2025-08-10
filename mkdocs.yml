@@ -5,7 +5,7 @@ repo_url: https://github.com/navid-m/scar
 nav:
    - Home: index.md
    - Core Constructs:
-        - Data Types: datatypes.md
+        - Primitive Data Types: datatypes.md
         - Variables: variables.md
         - Control Flow: controlflow.md
         - Functions: functions.md
