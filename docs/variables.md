@@ -41,14 +41,14 @@ Type inference helps reduce repetition, but it’s important to use it only when
 ### Good Example
 
 ```
-var number = 42; // Clearly an int
-var name = "Alice"; // Clearly a string
+var number = 42;    # Clearly an int
+var name = "Alice"; # Clearly a string
 ```
 
 ### Bad Example
 
 ```
-var data = GetData(); // What type is data? Not clear!
+var data = GetData(); # What type is data? Not clear!
 ```
 
 In the bad example, unless `GetData()` has a clear return type, it’s better to specify the type explicitly.
