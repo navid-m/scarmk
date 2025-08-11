@@ -11,3 +11,5 @@ parallel:
 
 print "After parallel block"
 ```
+
+This is highly useful in cases where you want to execute multiple independent tasks simultaneously, such as performing computations, handling I/O operations, or processing data in parallel to improve performance and reduce overall execution time. By leveraging the parallel block, you can maximize resource utilization and make your programs more efficient, especially on multi-core systems.
