@@ -13,6 +13,10 @@ nav:
         - Comments: comments.md
         - Access Modifiers: accessmods.md
         - Parallelism: parallelism.md
+   - Memory Management:
+        - Allocation on Heap: heap.md
+        - Allocation on Stack: stack.md
+        - Optional Garbage Collection: garbagecollection.md
    - Toolchain:
         - Compiler: compiler.md
         - Interpreter: interpreter.md

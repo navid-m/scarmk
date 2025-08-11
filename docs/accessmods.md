@@ -1,6 +1,6 @@
 # Access Modifiers
 
-Access modifiers are very simple, either a function is public or it is not.
+A function can be marked `pub` to expose it as an externally accessible API.
 
 ```
 pub fn some_function():
