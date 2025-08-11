@@ -21,6 +21,16 @@ nav:
         - Allocation on Heap: heap.md
         - Allocation on Stack: stack.md
         - Optional Garbage Collection: garbagecollection.md
+   - Standard Library:
+        - Collections: collections.md
+        - Strings: strings.md
+        - Math: math.md
+        - I/O: io.md
+        - Concurrency: concurrency.md
+        - Random: random.md
+        - Time: time.md
+        - JSON: json.md
+        - FS: filesystem.md
    - Toolchain:
         - Compiler: compiler.md
         - Interpreter: interpreter.md
