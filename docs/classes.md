@@ -9,7 +9,6 @@ pub class Calculator:
 
     fn subtract(i32 x) -> int:
         return this.current_value - x
-
 ```
 
 ## Instantiating Classes
