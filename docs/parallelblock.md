@@ -1,4 +1,4 @@
-### Parallel block
+### Overview
 
 The parallel block can be used alone in order to parallelize a set of executable statements.
 
