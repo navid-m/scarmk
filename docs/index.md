@@ -9,7 +9,7 @@ To get started with Scar, you can install it from the [GitHub releases page](htt
 
 -  Extract the downloaded archive.
 -  Add the `scar` executable to your system's PATH.
--  Verify the installation by running `scar` in your terminal.
+-  Verify the installation by running `scar --version` in your terminal.
 -  The VSCode extension can be found [here](https://marketplace.visualstudio.com/items?itemName=NavidM.scar).
 
 See also [Installation Details](#Installation Details) for setup instructions.
