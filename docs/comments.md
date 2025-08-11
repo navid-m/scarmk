@@ -9,3 +9,5 @@ Like this:
 fn cool_function(i32 back) -> i32:
     return back
 ```
+
+Docstrings are always denoted with double hashes, and are above the function signature, directly above it. No newlines.
