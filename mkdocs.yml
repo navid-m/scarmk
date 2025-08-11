@@ -31,6 +31,7 @@ nav:
         - Time: time.md
         - JSON: json.md
         - FS: filesystem.md
+        - OS: os.md
    - Toolchain:
         - Compiler: compiler.md
         - Interpreter: interpreter.md
