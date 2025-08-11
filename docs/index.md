@@ -3,6 +3,8 @@
 Scar is a programming language designed for ease of use in terms of concurrent programming.
 It has a focus on simplicity and performance, making it suitable for a wide range of applications.
 
+The full justification and rationale behind the design of Scar can be found [here](/philosophy).
+
 ## Getting Started
 
 To get started with Scar, you can install it from the [GitHub releases page](https://github.com/navid-m/scar/releases)
