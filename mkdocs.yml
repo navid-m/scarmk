@@ -12,7 +12,11 @@ nav:
         - Classes: classes.md
         - Comments: comments.md
         - Access Modifiers: accessmods.md
-        - Parallelism: parallelism.md
+   - Parallelism:
+        - Parallel block: parallelblock.md
+        - Parallel for: parallelism.md
+        - Parallel while: parallelwhile.md
+        - Reduce clause: reduce.md
    - Memory Management:
         - Allocation on Heap: heap.md
         - Allocation on Stack: stack.md
@@ -23,6 +27,7 @@ nav:
         - Debugger: debugger.md
         - Package Manager: package-manager.md
    - About:
+        - Philosophy and Justification: philosophy.md
         - License: license.md
 theme:
    name: material
