@@ -12,6 +12,7 @@ nav:
         - Classes: classes.md
         - Comments: comments.md
         - Access Modifiers: accessmods.md
+        - Parallelism: parallelism.md
    - Toolchain:
         - Compiler: compiler.md
         - Interpreter: interpreter.md
