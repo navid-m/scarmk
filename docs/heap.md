@@ -1,4 +1,4 @@
-# Heap
+# Heap Allocation
 
 ### Overall Syntax
 
@@ -6,7 +6,7 @@
 allocate <data-type> <variable-name> = <size-as-number>
 ```
 
-Allocation can be carried out on the heap using the `allocate` keyword.
+Allocation can be carried out on the heap using the `allocate` keyword, where `<data-type>` can also be `ref <data-type>`.
 
 ### Example
 
