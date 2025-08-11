@@ -14,7 +14,7 @@ nav:
         - Access Modifiers: accessmods.md
    - Parallelism:
         - Parallel block: parallelblock.md
-        - Parallel for: parallelism.md
+        - Parallel for: parallelfor.md
         - Parallel while: parallelwhile.md
         - Reduce clause: reduce.md
    - Memory Management:
