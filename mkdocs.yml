@@ -10,6 +10,7 @@ nav:
         - Control Flow: controlflow.md
         - Functions: functions.md
         - Classes: classes.md
+        - Comments: comments.md
         - Access Modifiers: accessmods.md
    - Toolchain:
         - Compiler: compiler.md
