@@ -22,16 +22,20 @@ nav:
         - Allocation on Stack: stack.md
         - Optional Garbage Collection: garbagecollection.md
    - Standard Library:
-        - Collections: collections.md
-        - Strings: strings.md
-        - Math: math.md
-        - I/O: io.md
-        - Concurrency: concurrency.md
-        - Random: random.md
-        - Time: time.md
-        - JSON: json.md
-        - FS: filesystem.md
-        - OS: os.md
+        - Collections: stdlib/collections.md
+        - Strings: stdlib/strings.md
+        - Math: stdlib/math.md
+        - I/O: stdlib/io.md
+        - Crypto: stdlib/crypto.md
+        - Hash: stdlib/hash.md
+        - Regex: stdlib/regex.md
+        - Log: stdlib/log.md
+        - Concurrency: stdlib/concurrency.md
+        - Random: stdlib/random.md
+        - Time: stdlib/time.md
+        - JSON: stdlib/json.md
+        - FS: stdlib/filesystem.md
+        - OS: stdlib/os.md
    - Toolchain:
         - Compiler: compiler.md
         - Interpreter: interpreter.md
