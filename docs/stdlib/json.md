@@ -1,20 +1,36 @@
-# json.scar
+# json
+
+*Source: `lib/json.scar`*
 
 ## Functions
 
 ### parse
 
+Parse JSON string and return json_t pointer
+
 ### loadup_file
+
+Parse JSON from file and return json_t pointer
 
 ### to_string
 
+Convert json_t to string representation
+
 ### to_string_pretty
+
+Convert json_t to pretty-printed string
 
 ### save_to_file
 
+Save json_t to file
+
 ### get_type
 
+Get the type of a JSON value
+
 ### check_is_object
+
+Check if JSON value is of specific type
 
 ### check_is_array
 
@@ -36,6 +52,8 @@
 
 ### new_object
 
+Create JSON values
+
 ### new_array
 
 ### new_string
@@ -54,6 +72,8 @@
 
 ### get_string_value
 
+Extract values from JSON
+
 ### get_integer_value
 
 ### get_real_value
@@ -63,6 +83,8 @@
 ### get_boolean_value
 
 ### obj_get
+
+Object operations
 
 ### obj_set
 
@@ -75,6 +97,8 @@
 ### obj_size
 
 ### arr_get
+
+Array operations
 
 ### arr_set
 
@@ -96,12 +120,19 @@
 
 ### inc_ref
 
+Memory management
+
 ### dec_ref
 
+This will also delete objects created with dump_to_file
+
 ### get_object_string
+
+Utility functions for easier usage
 
 ### get_object_integer
 
 ### get_object_real
 
 ### get_object_boolean
+
