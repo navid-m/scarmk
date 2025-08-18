@@ -26,11 +26,14 @@ nav:
         - Strings: stdlib/strings.md
         - Math: stdlib/math.md
         - I/O: stdlib/io.md
+        - Strings: stdlib/strings.md
+        - Path: stdlib/path.md
         - Crypto: stdlib/crypto.md
+        - Net: stdlib/net.md
         - Hash: stdlib/hash.md
         - Regex: stdlib/regex.md
         - Log: stdlib/log.md
-        - Concurrency: stdlib/concurrency.md
+        - Threads: stdlib/threads.md
         - Random: stdlib/random.md
         - Time: stdlib/time.md
         - JSON: stdlib/json.md
