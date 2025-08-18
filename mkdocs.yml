@@ -22,23 +22,23 @@ nav:
         - Allocation on Stack: stack.md
         - Optional Garbage Collection: garbagecollection.md
    - Standard Library:
-        - Collections: stdlib/collections.md
-        - Strings: stdlib/strings.md
-        - Math: stdlib/math.md
-        - I/O: stdlib/io.md
-        - Path: stdlib/path.md
-        - Crypto: stdlib/crypto.md
-        - Net: stdlib/net.md
-        - Hash: stdlib/hash.md
-        - Regex: stdlib/regex.md
-        - Log: stdlib/log.md
-        - Threads: stdlib/threads.md
-        - Random: stdlib/random.md
-        - Time: stdlib/time.md
-        - JSON: stdlib/json.md
-        - FS: stdlib/fs.md
-        - OS: stdlib/os.md
-        - Sort: stdlib/sort.md
+        - collections: stdlib/collections.md
+        - strings: stdlib/strings.md
+        - math: stdlib/math.md
+        - io: stdlib/io.md
+        - path: stdlib/path.md
+        - crypto: stdlib/crypto.md
+        - net: stdlib/net.md
+        - hash: stdlib/hash.md
+        - regex: stdlib/regex.md
+        - log: stdlib/log.md
+        - threads: stdlib/threads.md
+        - random: stdlib/random.md
+        - time: stdlib/time.md
+        - json: stdlib/json.md
+        - fs: stdlib/fs.md
+        - os: stdlib/os.md
+        - sort: stdlib/sort.md
    - Toolchain:
         - Compiler: compiler.md
         - Interpreter: interpreter.md
