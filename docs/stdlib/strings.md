@@ -2,9 +2,15 @@
 
 *Source: `strings.scar`*
 
-## Functions
+## Classes
 
-### append
+### Builder
+
+#### Methods
+
+- `append`
+
+## Functions
 
 ### length
 

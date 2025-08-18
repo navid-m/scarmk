@@ -2,23 +2,36 @@
 
 *Source: `math.scar`*
 
+## Classes
+
+### Vector2
+
+A 2D vector.
+
+#### Methods
+
+- `init`
+- `add`
+- `sub`
+- `mul`
+- `div`
+### Vector3
+
+A 3D vector.
+
+#### Methods
+
+- `init`
+- `add`
+- `sub`
+- `mul`
+- `div`
+### Matrix3x2
+
+### Matrix4x4
+
+
 ## Functions
-
-### add
-
-### sub
-
-### mul
-
-### div
-
-### add
-
-### sub
-
-### mul
-
-### div
 
 ### to_int
 

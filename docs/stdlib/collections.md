@@ -2,15 +2,16 @@
 
 *Source: `collections.scar`*
 
-## Functions
+## Classes
 
-### add_element
+### class_name
 
-### get_element
+#### Methods
 
-### set_element
-
-### get_size
-
-### resize
+- `init`
+- `add_element`
+- `get_element`
+- `set_element`
+- `get_size`
+- `resize`
 

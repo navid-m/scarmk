@@ -6,6 +6,21 @@
 
 - `std/strings`
 
+## Classes
+
+### TcpServer
+
+### TcpConnection
+
+### HttpRequest
+
+### HttpServer
+
+### HttpResponse
+
+Represents some response from a HTTP request
+
+
 ## Functions
 
 ### socket_init
