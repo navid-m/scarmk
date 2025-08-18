@@ -11,7 +11,11 @@
 
 ### timestamp
 
+Current UNIX timestamp in seconds.
+
 ### now
+
+Current local date/time components.
 
 ### format_date
 

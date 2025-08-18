@@ -16,8 +16,11 @@
 Spawn a native thread to run a C function pointer with an argument pointer.
 
 WARNING: func_ptr must be a native function pointer compatible with the platform:
+
 - Windows: DWORD WINAPI fn(void* arg)
+
 - Unix:    void* fn(void* arg)
+
 
 ### join
 
@@ -33,9 +36,15 @@ Create a mutex
 
 ### mutex_lock
 
+Lock a mutex. Blocks until the lock is acquired.
+
 ### mutex_unlock
 
+Unlock a mutex.
+
 ### mutex_destroy
+
+Destroy a mutex and free its underlying resources.
 
 ### sleep_ms
 

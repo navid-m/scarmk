@@ -14,6 +14,8 @@ FNV-1a hash with 64-bit output (returns as string to avoid overflow)
 
 ### djb2
 
+DJB2 hash algorithm
+
 ### simple_hash
 
 Basic polynomial rolling hash
@@ -43,5 +45,9 @@ High-quality non-cryptographic hash
 
 ### base64_encode
 
+Base64-encode a string and return the encoded text.
+
 ### base64_decode
+
+Decode a Base64-encoded string and return the decoded text.
 
