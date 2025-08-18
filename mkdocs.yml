@@ -26,7 +26,6 @@ nav:
         - Strings: stdlib/strings.md
         - Math: stdlib/math.md
         - I/O: stdlib/io.md
-        - Strings: stdlib/strings.md
         - Path: stdlib/path.md
         - Crypto: stdlib/crypto.md
         - Net: stdlib/net.md
