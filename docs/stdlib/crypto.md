@@ -1,9 +1,11 @@
-# crypto.scar
+# crypto
+
+*Source: `crypto.scar`*
 
 ## Imports
 
--  `std/strings`
--  `std/random`
+- `std/strings`
+- `std/random`
 
 ## Functions
 
@@ -16,3 +18,4 @@
 ### vigenere_decrypt
 
 ### random_salt
+

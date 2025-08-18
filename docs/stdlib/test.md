@@ -1,11 +1,11 @@
-# test.scar
+# test
 
-_Source: `lib/test.scar`_
+*Source: `test.scar`*
 
 ## Imports
 
--  `std/math`
--  `std/strings`
+- `std/math`
+- `std/strings`
 
 ## Functions
 
@@ -24,3 +24,6 @@ _Source: `lib/test.scar`_
 ### assert_false
 
 ### assert_int_list_equals
+
+### test_summary
+

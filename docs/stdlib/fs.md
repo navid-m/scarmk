@@ -1,8 +1,10 @@
-# fs.scar
+# fs
+
+*Source: `fs.scar`*
 
 ## Imports
 
--  `std/strings`
+- `std/strings`
 
 ## Functions
 
@@ -21,3 +23,4 @@
 ### read_lines
 
 ### list_dir
+

@@ -1,6 +1,6 @@
-# os.scar
+# os
 
-*Source: `lib/os.scar`*
+*Source: `os.scar`*
 
 ## Functions
 

@@ -1,6 +1,6 @@
 # math
 
-*Source: `lib/math.scar`*
+*Source: `math.scar`*
 
 ## Functions
 

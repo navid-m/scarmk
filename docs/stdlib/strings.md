@@ -1,6 +1,6 @@
-# strings.scar
+# strings
 
-_Source: `lib/strings.scar`_
+*Source: `strings.scar`*
 
 ## Functions
 
@@ -31,3 +31,18 @@ _Source: `lib/strings.scar`_
 ### last_index_of
 
 ### starts_with
+
+### substring
+
+### to_hex
+
+### equal
+
+### replace
+
+### split
+
+### trim
+
+### name
+

@@ -1,6 +1,6 @@
 # json
 
-*Source: `lib/json.scar`*
+*Source: `json.scar`*
 
 ## Functions
 
@@ -128,11 +128,17 @@ This will also delete objects created with dump_to_file
 
 ### get_object_string
 
-Utility functions for easier usage
+Utility function for easier usage, get object string
 
 ### get_object_integer
 
+Utility function for easier usage, get object integer
+
 ### get_object_real
 
+Utility function for easier usage, get object real
+
 ### get_object_boolean
+
+Utility function for easier usage, get object boolean
 

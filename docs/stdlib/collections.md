@@ -1,6 +1,6 @@
-# collections.scar
+# collections
 
-*Source: `lib/collections.scar`*
+*Source: `collections.scar`*
 
 ## Functions
 

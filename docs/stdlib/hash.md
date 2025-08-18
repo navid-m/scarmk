@@ -1,25 +1,47 @@
-# hash.scar
+# hash
+
+*Source: `hash.scar`*
 
 ## Functions
 
 ### fnv1a
 
+FNV-1a hash algorithm
+
 ### fnv1a_64
+
+FNV-1a hash with 64-bit output (returns as string to avoid overflow)
 
 ### djb2
 
 ### simple_hash
 
+Basic polynomial rolling hash
+
 ### sdbm
+
+SDBM hash algorithm
+Used in SDBM database and GNU AWK
 
 ### crc32
 
+CRC32 hash implementation
+Cyclic redundancy check with good error detection
+
 ### hash_int
+
+Hash function for integers
 
 ### combine_hash
 
+Combine two hash values
+
 ### murmur3
+
+Murmur3 hash (32-bit version)
+High-quality non-cryptographic hash
 
 ### base64_encode
 
 ### base64_decode
+

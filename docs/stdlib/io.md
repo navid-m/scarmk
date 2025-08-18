@@ -1,10 +1,12 @@
-# io.scar
+# io
+
+*Source: `io.scar`*
 
 ## Imports
 
--  `std/math`
--  `std/collections`
--  `std/strings`
+- `std/math`
+- `std/collections`
+- `std/strings`
 
 ## Functions
 
@@ -30,10 +32,3 @@
 
 ### exists
 
-### combine_hash
-
-### murmur3
-
-### base64_encode
-
-### base64_decode

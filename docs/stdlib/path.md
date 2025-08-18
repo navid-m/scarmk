@@ -1,6 +1,6 @@
-# path.scar
+# path
 
-*Source: `lib/path.scar`*
+*Source: `path.scar`*
 
 ## Functions
 

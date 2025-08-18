@@ -1,6 +1,6 @@
-# net.scar
+# net
 
-*Source: `lib/net.scar`*
+*Source: `net.scar`*
 
 ## Imports
 
@@ -40,17 +40,33 @@
 
 ### url_encode
 
+URL encode a string
+
 ### url_decode
+
+URL decode a string
 
 ### http_get
 
+Send a GET request to the specified URL and return the response
+
 ### http_post
+
+Send a POST request to the specified URL and return the response
 
 ### http_put
 
+HTTP PUT request
+
 ### http_delete
+
+HTTP DELETE request
 
 ### download_file
 
+Download a file from URL to local path
+
 ### ping_url
+
+Check if a URL is reachable
 

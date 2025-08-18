@@ -1,6 +1,6 @@
-# time.scar
+# time
 
-*Source: `lib/time.scar`*
+*Source: `time.scar`*
 
 ## Functions
 
@@ -9,4 +9,6 @@
 ### now
 
 ### format_date
+
+Format date as string (YYYY-MM-DD HH:MM:SS)
 

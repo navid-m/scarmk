@@ -38,6 +38,7 @@ nav:
         - JSON: stdlib/json.md
         - FS: stdlib/filesystem.md
         - OS: stdlib/os.md
+        - Sort: stdlib/sort.md
    - Toolchain:
         - Compiler: compiler.md
         - Interpreter: interpreter.md

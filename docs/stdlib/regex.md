@@ -1,6 +1,6 @@
-# regex.scar
+# regex
 
-*Source: `lib/regex.scar`*
+*Source: `regex.scar`*
 
 ## Functions
 
