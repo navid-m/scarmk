@@ -8,7 +8,15 @@
 
 #### Methods
 
-- `append`
+##### append
+
+
+## Macros
+
+### get_char_at_either
+
+Signature: `get_char_at_either(name, return_type)`
+
 
 ## Functions
 

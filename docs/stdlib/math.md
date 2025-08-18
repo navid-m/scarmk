@@ -10,22 +10,32 @@ A 2D vector.
 
 #### Methods
 
-- `init`
-- `add`
-- `sub`
-- `mul`
-- `div`
+##### init
+
+##### add
+
+##### sub
+
+##### mul
+
+##### div
+
 ### Vector3
 
 A 3D vector.
 
 #### Methods
 
-- `init`
-- `add`
-- `sub`
-- `mul`
-- `div`
+##### init
+
+##### add
+
+##### sub
+
+##### mul
+
+##### div
+
 ### Matrix3x2
 
 ### Matrix4x4
