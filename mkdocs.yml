@@ -36,7 +36,7 @@ nav:
         - Random: stdlib/random.md
         - Time: stdlib/time.md
         - JSON: stdlib/json.md
-        - FS: stdlib/filesystem.md
+        - FS: stdlib/fs.md
         - OS: stdlib/os.md
         - Sort: stdlib/sort.md
    - Toolchain:
