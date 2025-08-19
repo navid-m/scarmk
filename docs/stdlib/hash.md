@@ -51,3 +51,8 @@ Base64-encode a string and return the encoded text.
 
 Decode a Base64-encoded string and return the decoded text.
 
+### sha256
+
+Compute the SHA-256 hash of the given input string.
+Return the hash as a hexadecimal string.
+

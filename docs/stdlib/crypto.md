@@ -34,11 +34,6 @@ Return the decrypted text as a string.
 Generate a random salt of the specified length.
 Return the generated salt as a string.
 
-### sha256
-
-Compute the SHA-256 hash of the given input string.
-Return the hash as a hexadecimal string.
-
 ### aes128_encrypt
 
 Encrypt data using AES-128 in ECB mode.
