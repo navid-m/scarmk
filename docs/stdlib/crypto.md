@@ -39,3 +39,19 @@ Return the generated salt as a string.
 Compute the SHA-256 hash of the given input string.
 Return the hash as a hexadecimal string.
 
+### aes128_encrypt
+
+Encrypt data using AES-128 in ECB mode.
+
+Takes plaintext and a 16-byte (128-bit) key.
+
+Returns encrypted data as hexadecimal string.
+
+### aes128_decrypt
+
+Decrypt data using AES-128 in ECB mode.
+
+Takes hexadecimal encrypted data and a 16-byte (128-bit) key.
+
+Returns decrypted plaintext as a string.
+
