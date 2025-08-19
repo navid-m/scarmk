@@ -10,11 +10,19 @@
 
 ### TcpServer
 
+Represents some TCP server.
+
 ### TcpConnection
+
+Represents some TCP connection.
 
 ### HttpRequest
 
+Represents some HTTP request.
+
 ### HttpServer
+
+Represents some HTTP server.
 
 ### HttpResponse
 
@@ -25,33 +33,63 @@ Represents some response from a HTTP request
 
 ### socket_init
 
+Initialize the socket library.
+
 ### socket_cleanup
+
+Clean up the socket library.
 
 ### tcp_server_create
 
+Create a TCP server.
+
 ### tcp_server_listen
+
+Listen for incoming connections.
 
 ### tcp_server_accept
 
+Accept an incoming connection.
+
 ### tcp_send
+
+Send data over a TCP connection.
 
 ### tcp_receive
 
+Receive data from a TCP connection.
+
 ### tcp_close
+
+Close a TCP connection.
 
 ### tcp_server_close
 
+Close a TCP server.
+
 ### http_parse_request
+
+Parse an HTTP request.
 
 ### http_server_create
 
+Create a HTTP server.
+
 ### http_server_start
+
+Start the HTTP server.
 
 ### http_server_handle_request
 
+Handle an HTTP request.
+
 ### http_json_response
 
+Send a JSON response.
+
 ### http_html_response
+
+Send an HTML response.
 
 ### url_encode
 

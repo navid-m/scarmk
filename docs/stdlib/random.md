@@ -6,12 +6,19 @@
 
 ### uuid
 
+Get a random UUID.
+
 ### num
+
+Get a random number.
+
+Returns an integer between x and y, inclusive.
 
 ### boolean
 
-Random boolean value
-Returns true or false with equal probability
+Random boolean value.
+
+Returns true or false with equal probability.
 
 ### floatb
 

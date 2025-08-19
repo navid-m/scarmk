@@ -6,6 +6,8 @@
 
 ### Date
 
+Represents some date.
+
 
 ## Functions
 

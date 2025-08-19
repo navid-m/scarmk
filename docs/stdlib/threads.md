@@ -6,7 +6,11 @@
 
 ### Thread
 
+Represents some thread.
+
 ### Mutex
+
+Represents some mutex.
 
 
 ## Functions
