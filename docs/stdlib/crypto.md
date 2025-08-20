@@ -50,3 +50,19 @@ Takes hexadecimal encrypted data and a 16-byte (128-bit) key.
 
 Returns decrypted plaintext as a string.
 
+### chacha20_encrypt
+
+Encrypt data using ChaCha20 stream cipher.
+
+Takes plaintext, a 32-byte (256-bit) key, and a 12-byte (96-bit) nonce.
+
+Returns encrypted data as hexadecimal string.
+
+### chacha20_decrypt
+
+Decrypt data using ChaCha20 stream cipher.
+
+Takes hexadecimal encrypted data, a 32-byte (256-bit) key, and a 12-byte (96-bit) nonce.
+
+Returns decrypted plaintext as a string.
+
