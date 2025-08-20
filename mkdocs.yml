@@ -39,6 +39,7 @@ nav:
         - fs: stdlib/fs.md
         - os: stdlib/os.md
         - sort: stdlib/sort.md
+        - uri: stdlib/uri.md
    - Toolchain:
         - Compiler: compiler.md
         - Interpreter: interpreter.md
