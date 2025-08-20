@@ -86,6 +86,10 @@ Returns a substring of a string.
 
 Converts an integer to a hexadecimal string.
 
+### from_hex
+
+Converts a hexadecimal string (like "2F" or "20") to an integer.
+
 ### equal
 
 Compares two strings.
