@@ -45,9 +45,9 @@ Resize the array.
 
 ## Macros
 
-### NewArray
+### new_array
 
-`NewArray(class_name, field_type, elem_type, cType, d_return, alloc_expr, free_expr, copy_expr, get_check)`
+`new_array(class_name, field_type, elem_type, cType, d_return, alloc_expr, free_expr, copy_expr, get_check)`
 
 Define a new array type.
 
