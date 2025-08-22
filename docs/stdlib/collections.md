@@ -2,6 +2,10 @@
 
 *Source: `collections.scar`*
 
+## Imports
+
+- `std/os`
+
 ## Classes
 
 ### class_name

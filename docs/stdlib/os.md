@@ -54,7 +54,7 @@ Get the temporary directory.
 
 ### get_args
 
-`get_args() -> list[string]`
+`get_args() -> collections`
 
 Get the command line arguments.
 
@@ -69,4 +69,10 @@ Read the contents of a directory.
 `clear()`
 
 Clear the terminal.
+
+### runtime_error
+
+`runtime_error(string msg)`
+
+Print a runtime error message and exit with code 1.
 
