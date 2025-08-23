@@ -13,7 +13,6 @@
 
 `xor_cipher(string text, string key) -> string`
 
-Apply XOR cipher to a given text using the provided key.
 Return the raw string result of XOR between text and key characters.
 
 ### xor_cipher_hex
@@ -22,20 +21,6 @@ Return the raw string result of XOR between text and key characters.
 
 Apply XOR cipher to a given text using the provided key.
 Return the result as a hexadecimal string.
-
-### vigenere_encrypt
-
-`vigenere_encrypt(string text, string key) -> string`
-
-Encrypt a given text using the Vigenère cipher with the provided key.
-Return the encrypted text as a string.
-
-### vigenere_decrypt
-
-`vigenere_decrypt(string text, string key) -> string`
-
-Decrypt a given text using the Vigenère cipher with the provided key.
-Return the decrypted text as a string.
 
 ### random_salt
 

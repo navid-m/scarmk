@@ -6,8 +6,6 @@
 
 ### Date
 
-Represents some date.
-
 
 ## Functions
 
@@ -19,7 +17,7 @@ Current UNIX timestamp in seconds.
 
 ### now
 
-`now() -> time`
+`now() -> time::Date`
 
 Current local date/time components.
 

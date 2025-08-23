@@ -5,7 +5,6 @@
 ## Imports
 
 - `std/math`
-- `std/collections`
 - `std/strings`
 
 ## Functions
@@ -13,8 +12,6 @@
 ### readln
 
 `readln() -> lstring`
-
-Read a line from stdin without the trailing newline.
 
 ### readln_with_prompt
 
@@ -25,8 +22,6 @@ Print a prompt then read a line from stdin.
 ### read_int
 
 `read_int() -> i32`
-
-Read a line from stdin and parse it as 32-bit integer.
 
 ### read_float
 
@@ -48,7 +43,7 @@ Read a line and return its first character.
 
 ### read_split
 
-`read_split(char* delimiter) -> collections`
+`read_split(char* delimiter) -> collections::StringArrayList`
 
 Read a line and split it by the given delimiter.
 

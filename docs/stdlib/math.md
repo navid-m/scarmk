@@ -6,41 +6,31 @@
 
 ### Vector2
 
-A 2D vector.
-
 #### Methods
 
 ##### init
 
 `init(f32 x, f32 y)`
 
-##### add
-
-`add(ref math::Vector2 other) -> math`
-
-Add two 2D vectors.
-
 ##### sub
 
-`sub(ref math::Vector2 other) -> math`
+`sub(ref math::Vector2 other) -> math::Vector2`
 
 Subtract two 2D vectors.
 
 ##### mul
 
-`mul(ref math::Vector2 other) -> math`
+`mul(ref math::Vector2 other) -> math::Vector2`
 
 Multiply two 2D vectors.
 
 ##### div
 
-`div(ref math::Vector2 other) -> math`
+`div(ref math::Vector2 other) -> math::Vector2`
 
 Divide two 2D vectors.
 
 ### Vector3
-
-A 3D vector.
 
 #### Methods
 
@@ -50,27 +40,15 @@ A 3D vector.
 
 ##### add
 
-`add(ref math::Vector3 other) -> math`
+`add(ref math::Vector3 other) -> math::Vector3`
 
 Add two 3D vectors.
 
 ##### sub
 
-`sub(ref math::Vector3 other) -> math`
+`sub(ref math::Vector3 other) -> math::Vector3`
 
 Subtract two 3D vectors.
-
-##### mul
-
-`mul(ref math::Vector3 other) -> math`
-
-Multiply two 3D vectors.
-
-##### div
-
-`div(ref math::Vector3 other) -> math`
-
-Divide two 3D vectors.
 
 ### Matrix3x2
 
@@ -78,6 +56,18 @@ Divide two 3D vectors.
 
 
 ## Functions
+
+### mul
+
+`mul(ref math::Vector3 other) -> math::Vector3`
+
+Multiply two 3D vectors.
+
+### div
+
+`div(ref math::Vector3 other) -> math::Vector3`
+
+Divide two 3D vectors.
 
 ### to_int
 

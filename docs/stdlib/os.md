@@ -10,12 +10,6 @@
 
 Execute a command.
 
-### exec_with_args
-
-`exec_with_args(string command, list[string] args) -> i64`
-
-Execute a command with arguments.
-
 ### exit
 
 `exit(i64 code)`
@@ -54,15 +48,9 @@ Get the temporary directory.
 
 ### get_args
 
-`get_args() -> collections`
+`get_args() -> collections::StringArrayList`
 
 Get the command line arguments.
-
-### read_dir
-
-`read_dir(string path) -> list[string]`
-
-Read the contents of a directory.
 
 ### clear
 

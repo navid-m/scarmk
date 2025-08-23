@@ -4,12 +4,6 @@
 
 ## Functions
 
-### uuid
-
-`uuid(int length) -> char*`
-
-Get a random UUID.
-
 ### num
 
 `num(int x, int y) -> int`

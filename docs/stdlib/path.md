@@ -6,16 +6,8 @@
 
 ### PathParts
 
-The base name and directory name of a path.
-
 
 ## Functions
-
-### is_absolute_path
-
-`is_absolute_path(string path) -> bool`
-
-Check if a path is absolute.
 
 ### is_relative
 
@@ -73,7 +65,7 @@ Get the directory name of a path.
 
 ### split
 
-`split(string path) -> path`
+`split(string path) -> path::PathParts`
 
 Split a path into (dirname, basename).
 

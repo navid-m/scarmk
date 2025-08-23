@@ -10,23 +10,13 @@
 
 ### TcpServer
 
-Represents some TCP server.
-
 ### TcpConnection
-
-Represents some TCP connection.
 
 ### HttpRequest
 
-Represents some HTTP request.
-
 ### HttpServer
 
-Represents some HTTP server.
-
 ### HttpResponse
-
-Represents some response from a HTTP request
 
 
 ## Functions
@@ -45,7 +35,7 @@ Clean up the socket library.
 
 ### tcp_server_create
 
-`tcp_server_create(i32 port) -> net`
+`tcp_server_create(i32 port) -> net::TcpServer`
 
 Create a TCP server.
 
@@ -57,7 +47,7 @@ Listen for incoming connections.
 
 ### tcp_server_accept
 
-`tcp_server_accept(net::TcpServer server) -> net`
+`tcp_server_accept(net::TcpServer server) -> net::TcpConnection`
 
 Accept an incoming connection.
 
@@ -87,13 +77,13 @@ Close a TCP server.
 
 ### http_parse_request
 
-`http_parse_request(cstring raw_data) -> net`
+`http_parse_request(cstring raw_data) -> net::HttpRequest`
 
 Parse an HTTP request.
 
 ### http_server_create
 
-`http_server_create(i32 port) -> net`
+`http_server_create(i32 port) -> net::HttpServer`
 
 Create a HTTP server.
 
@@ -102,12 +92,6 @@ Create a HTTP server.
 `http_server_start(net::HttpServer server) -> bool`
 
 Start the HTTP server.
-
-### http_server_handle_request
-
-`http_server_handle_request(net::TcpConnection conn, cstring response_body) -> void`
-
-Handle an HTTP request.
 
 ### http_json_response
 
@@ -135,25 +119,25 @@ URL decode a string
 
 ### http_get
 
-`http_get(char* url) -> net`
+`http_get(char* url) -> net::HttpResponse`
 
 Send a GET request to the specified URL and return the response
 
 ### http_post
 
-`http_post(char* url, char* data) -> net`
+`http_post(char* url, char* data) -> net::HttpResponse`
 
 Send a POST request to the specified URL and return the response
 
 ### http_put
 
-`http_put(cstring url, cstring data) -> net`
+`http_put(cstring url, cstring data) -> net::HttpResponse`
 
 HTTP PUT request
 
 ### http_delete
 
-`http_delete(cstring url) -> net`
+`http_delete(cstring url) -> net::HttpResponse`
 
 HTTP DELETE request
 

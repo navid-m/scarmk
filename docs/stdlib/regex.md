@@ -13,8 +13,6 @@
 
 `matches(string pattern, string text) -> bool`
 
-Check if a string matches a regular expression pattern.
-
 ### find_joined
 
 `find_joined(string pattern, string text) -> lstring`
@@ -23,7 +21,7 @@ Internal helper: returns all matches (full match and groups) joined by newlines.
 
 ### find
 
-`find(string pattern, string text) -> collections`
+`find(string pattern, string text) -> collections::StringArrayList`
 
 Find all matches of a regular expression pattern in a string.
 
@@ -43,7 +41,7 @@ Internal helper: split text by regex matches, returning pieces joined by newline
 
 ### split
 
-`split(string pattern, string text) -> collections`
+`split(string pattern, string text) -> collections::StringArrayList`
 
 Split a string into a list of substrings using a regular expression pattern.
 

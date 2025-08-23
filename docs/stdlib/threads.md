@@ -6,18 +6,14 @@
 
 ### Thread
 
-Represents some thread.
-
 ### Mutex
-
-Represents some mutex.
 
 
 ## Functions
 
 ### spawn
 
-`spawn(i64 func_ptr, i64 arg_ptr) -> threads`
+`spawn(i64 func_ptr, i64 arg_ptr) -> threads::Thread`
 
 Spawn a native thread to run a C function pointer with an argument pointer.
 
@@ -42,7 +38,7 @@ Detach a thread (cannot be joined afterward)
 
 ### mutex_create
 
-`mutex_create() -> threads`
+`mutex_create() -> threads::Mutex`
 
 Create a mutex
 

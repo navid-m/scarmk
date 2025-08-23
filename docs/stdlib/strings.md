@@ -6,8 +6,6 @@
 
 ### Builder
 
-String builder for manual string concatenation, works on mutable strings.
-
 #### Methods
 
 ##### append
@@ -19,9 +17,9 @@ Appends a string to the builder.
 
 ## Macros
 
-### get_char_at_either
+### 
 
-`get_char_at_either(name, return_type)`
+`( ãb)`
 
 Returns the character at a specific index in a string.
 
@@ -138,7 +136,7 @@ Replaces all occurrences of a substring in a string.
 
 ### split
 
-`split(string str, string delimiter) -> collections`
+`split(string str, string delimiter) -> collections::StringArrayList`
 
 Splits a string into a list of substrings.
 

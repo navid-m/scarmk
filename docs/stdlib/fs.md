@@ -6,15 +6,12 @@
 
 - `std/strings`
 - `std/io`
-- `std/collections`
 
 ## Functions
 
 ### make_dir
 
 `make_dir(string path) -> bool`
-
-Create a directory at the given path. Returns true on success.
 
 ### remove_dir
 
@@ -24,15 +21,9 @@ Remove an empty directory. Returns true on success.
 
 ### read_bytes
 
-`read_bytes(string filename) -> collections`
+`read_bytes(string filename) -> collections::ByteArrayList`
 
 Read entire file as bytes. Returns ByteArrayList of u8 values.
-
-### write_bytes
-
-`write_bytes(string filename, collections::ArrayList data) -> bool`
-
-Write bytes to a file. Overwrites existing file. Returns true on success.
 
 ### exists
 
@@ -48,7 +39,7 @@ Remove a file at the given path. Returns true on success.
 
 ### read_lines
 
-`read_lines(string filename) -> collections`
+`read_lines(string filename) -> collections::StringArrayList`
 
 Read a text file into a list of lines (without trailing newlines).
 
@@ -60,7 +51,7 @@ Internal helper: returns directory entries joined by newlines. Excludes . and ..
 
 ### list_dir
 
-`list_dir(string path) -> collections`
+`list_dir(string path) -> collections::StringArrayList`
 
 List directory entries (files and subdirectories). Excludes . and ..
 
