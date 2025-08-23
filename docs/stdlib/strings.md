@@ -1,6 +1,6 @@
 # strings
 
-_Source: `strings.scar`_
+*Source: `strings.scar`*
 
 ## Classes
 
@@ -14,7 +14,15 @@ _Source: `strings.scar`_
 
 Appends a string to the builder.
 
+
 ## Macros
+
+### get_char_at_either
+
+`get_char_at_either(name, return_type)`
+
+Returns the character at a specific index in a string.
+
 
 ## Functions
 
@@ -141,3 +149,4 @@ Trims leading and trailing whitespace from a string.
 ### name
 
 `name(string str, int index) -> return_type`
+
