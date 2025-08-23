@@ -1,6 +1,6 @@
 # strings
 
-*Source: `strings.scar`*
+_Source: `strings.scar`_
 
 ## Classes
 
@@ -14,15 +14,7 @@
 
 Appends a string to the builder.
 
-
 ## Macros
-
-### 
-
-`( ãb)`
-
-Returns the character at a specific index in a string.
-
 
 ## Functions
 
@@ -149,4 +141,3 @@ Trims leading and trailing whitespace from a string.
 ### name
 
 `name(string str, int index) -> return_type`
-
