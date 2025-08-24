@@ -33,6 +33,7 @@ nav:
         - regex: stdlib/regex.md
         - log: stdlib/log.md
         - threads: stdlib/threads.md
+        - runtime: stdlib/runtime.md
         - random: stdlib/random.md
         - time: stdlib/time.md
         - json: stdlib/json.md
