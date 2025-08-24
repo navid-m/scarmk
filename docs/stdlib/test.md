@@ -19,20 +19,20 @@
 
 Assert that a condition is true.
 
-##### assert_equals
+
+## Functions
+
+### assert_equals
 
 `assert_equals(int expected, int actual, string message) -> void`
 
 Assert that two integers are equal.
 
-##### assert_string_equals
+### assert_string_equals
 
 `assert_string_equals(string expected, string actual, string message) -> void`
 
 Assert that two strings are equal.
-
-
-## Functions
 
 ### assert_int_equals
 

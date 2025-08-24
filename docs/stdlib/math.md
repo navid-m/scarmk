@@ -12,24 +12,6 @@
 
 `init(f32 x, f32 y)`
 
-##### sub
-
-`sub(ref math::Vector2 other) -> math::Vector2`
-
-Subtract two 2D vectors.
-
-##### mul
-
-`mul(ref math::Vector2 other) -> math::Vector2`
-
-Multiply two 2D vectors.
-
-##### div
-
-`div(ref math::Vector2 other) -> math::Vector2`
-
-Divide two 2D vectors.
-
 ### Vector3
 
 #### Methods
@@ -44,18 +26,36 @@ Divide two 2D vectors.
 
 Add two 3D vectors.
 
-##### sub
-
-`sub(ref math::Vector3 other) -> math::Vector3`
-
-Subtract two 3D vectors.
-
 ### Matrix3x2
 
 ### Matrix4x4
 
 
 ## Functions
+
+### sub
+
+`sub(ref math::Vector2 other) -> math::Vector2`
+
+Subtract two 2D vectors.
+
+### mul
+
+`mul(ref math::Vector2 other) -> math::Vector2`
+
+Multiply two 2D vectors.
+
+### div
+
+`div(ref math::Vector2 other) -> math::Vector2`
+
+Divide two 2D vectors.
+
+### sub
+
+`sub(ref math::Vector3 other) -> math::Vector3`
+
+Subtract two 3D vectors.
 
 ### mul
 

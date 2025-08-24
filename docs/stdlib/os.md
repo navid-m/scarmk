@@ -58,9 +58,3 @@ Get the command line arguments.
 
 Clear the terminal.
 
-### runtime_error
-
-`runtime_error(string msg)`
-
-Print a runtime error message and exit with code 1.
-

@@ -4,7 +4,7 @@
 
 ## Imports
 
-- `std/os`
+- `std/runtime`
 
 ## Classes
 
@@ -45,5 +45,23 @@ Get the size of the array.
 `resize() -> void`
 
 Resize the array.
+
+
+## Macros
+
+### define_arraylist
+
+`define_arraylist(class_name, elem_type, default_value)`
+
+Convenience macro to define an ArrayList for a custom type.
+
+Usage: define_arraylist(MyList, MyType, default_value)
+
+Notes:
+
+ - For most value types (including user-defined structs/classes that map to a C type),
+   this will Just Work (TM) by using sizeof(elem_type) and plain assignment.
+
+ - For strings, prefer the existing `StringArrayList` specialization.
 
 
