@@ -1,10 +1,11 @@
 # io
 
-*Source: `io.scar`*
+*Source: `./io.scar`*
 
 ## Imports
 
 - `std/math`
+- `std/collections`
 - `std/strings`
 
 ## Functions
@@ -12,6 +13,8 @@
 ### readln
 
 `readln() -> lstring`
+
+Read a line from stdin without the trailing newline.
 
 ### readln_with_prompt
 
@@ -22,6 +25,8 @@ Print a prompt then read a line from stdin.
 ### read_int
 
 `read_int() -> i32`
+
+Read a line from stdin and parse it as 32-bit integer.
 
 ### read_float
 

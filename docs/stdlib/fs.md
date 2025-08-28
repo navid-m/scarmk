@@ -1,17 +1,20 @@
 # fs
 
-*Source: `fs.scar`*
+*Source: `./fs.scar`*
 
 ## Imports
 
 - `std/strings`
 - `std/io`
+- `std/collections`
 
 ## Functions
 
 ### make_dir
 
 `make_dir(string path) -> bool`
+
+Create a directory at the given path. Returns true on success.
 
 ### remove_dir
 
@@ -24,6 +27,12 @@ Remove an empty directory. Returns true on success.
 `read_bytes(string filename) -> collections::ByteArrayList`
 
 Read entire file as bytes. Returns ByteArrayList of u8 values.
+
+### write_bytes
+
+`write_bytes(string filename, collections::ArrayList data) -> bool`
+
+Write bytes to a file. Overwrites existing file. Returns true on success.
 
 ### exists
 

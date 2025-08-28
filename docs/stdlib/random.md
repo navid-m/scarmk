@@ -1,8 +1,14 @@
 # random
 
-*Source: `random.scar`*
+*Source: `./random.scar`*
 
 ## Functions
+
+### uuid
+
+`uuid(int length) -> char*`
+
+Get a random UUID.
 
 ### num
 

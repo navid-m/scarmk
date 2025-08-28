@@ -1,6 +1,6 @@
 # net
 
-*Source: `net.scar`*
+*Source: `./net.scar`*
 
 ## Imports
 
@@ -92,6 +92,12 @@ Create a HTTP server.
 `http_server_start(net::HttpServer server) -> bool`
 
 Start the HTTP server.
+
+### http_server_handle_request
+
+`http_server_handle_request(net::TcpConnection conn, cstring response_body) -> void`
+
+Handle an HTTP request.
 
 ### http_json_response
 

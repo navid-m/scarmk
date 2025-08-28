@@ -1,6 +1,10 @@
 # strings
 
-*Source: `strings.scar`*
+*Source: `./strings.scar`*
+
+## Imports
+
+- `std/runtime`
 
 ## Classes
 
@@ -37,6 +41,14 @@ Returns the length of a string.
 `compare(string a, string b) -> int`
 
 Compares two strings.
+
+### new_string_w_size
+
+`new_string_w_size(string s, i32 size) -> string`
+
+Quickly constructs a new string by copying the input.
+
+If specific size is not needed, copy string using the fmt! builtin instead.
 
 ### ord
 

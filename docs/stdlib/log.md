@@ -1,12 +1,14 @@
 # log
 
-*Source: `log.scar`*
+*Source: `./log.scar`*
 
 ## Functions
 
 ### warn
 
 `warn(string message) -> void`
+
+Print a tagged warning to the stderr stream
 
 ### error
 

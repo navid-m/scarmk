@@ -1,6 +1,6 @@
 # crypto
 
-*Source: `crypto.scar`*
+*Source: `./crypto.scar`*
 
 ## Imports
 
@@ -13,6 +13,7 @@
 
 `xor_cipher(string text, string key) -> string`
 
+Apply XOR cipher to a given text using the provided key.
 Return the raw string result of XOR between text and key characters.
 
 ### xor_cipher_hex

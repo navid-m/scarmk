@@ -1,6 +1,6 @@
 # hash
 
-*Source: `hash.scar`*
+*Source: `./hash.scar`*
 
 ## Functions
 
@@ -8,9 +8,13 @@
 
 `fnv1a(string data) -> i32`
 
+FNV-1a hash algorithm
+
 ### fnv1a_64
 
 `fnv1a_64(ref string data) -> void`
+
+FNV-1a hash with 64-bit output (returns as string to avoid overflow)
 
 ### djb2
 

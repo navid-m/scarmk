@@ -1,6 +1,6 @@
 # regex
 
-*Source: `regex.scar`*
+*Source: `./regex.scar`*
 
 ## Imports
 
@@ -12,6 +12,8 @@
 ### matches
 
 `matches(string pattern, string text) -> bool`
+
+Check if a string matches a regular expression pattern.
 
 ### find_joined
 

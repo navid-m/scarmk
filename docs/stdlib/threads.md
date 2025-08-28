@@ -1,6 +1,6 @@
 # threads
 
-*Source: `threads.scar`*
+*Source: `./threads.scar`*
 
 ## Classes
 

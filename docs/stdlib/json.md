@@ -1,6 +1,6 @@
 # json
 
-*Source: `json.scar`*
+*Source: `./json.scar`*
 
 ## Functions
 

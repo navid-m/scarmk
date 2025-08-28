@@ -1,6 +1,6 @@
 # time
 
-*Source: `time.scar`*
+*Source: `./time.scar`*
 
 ## Classes
 

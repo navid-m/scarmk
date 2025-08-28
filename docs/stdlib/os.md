@@ -1,6 +1,10 @@
 # os
 
-*Source: `os.scar`*
+*Source: `./os.scar`*
+
+## Imports
+
+- `std/collections`
 
 ## Functions
 
@@ -9,6 +13,12 @@
 `exec(string command) -> i64`
 
 Execute a command.
+
+### exec_with_args
+
+`exec_with_args(string command, collections::StringArrayList args) -> i64`
+
+Execute a command with arguments.
 
 ### exit
 

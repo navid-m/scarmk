@@ -1,6 +1,6 @@
 # path
 
-*Source: `path.scar`*
+*Source: `./path.scar`*
 
 ## Classes
 
@@ -8,6 +8,12 @@
 
 
 ## Functions
+
+### is_absolute_path
+
+`is_absolute_path(string path) -> bool`
+
+Check if a path is absolute.
 
 ### is_relative
 

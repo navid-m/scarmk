@@ -1,6 +1,6 @@
 # math
 
-*Source: `math.scar`*
+*Source: `./math.scar`*
 
 ## Classes
 
@@ -11,6 +11,30 @@
 ##### init
 
 `init(f32 x, f32 y)`
+
+##### add
+
+`add(ref math::Vector2 other) -> math::Vector2`
+
+Add two 2D vectors.
+
+##### sub
+
+`sub(ref math::Vector2 other) -> math::Vector2`
+
+Subtract two 2D vectors.
+
+##### mul
+
+`mul(ref math::Vector2 other) -> math::Vector2`
+
+Multiply two 2D vectors.
+
+##### div
+
+`div(ref math::Vector2 other) -> math::Vector2`
+
+Divide two 2D vectors.
 
 ### Vector3
 
@@ -26,48 +50,30 @@
 
 Add two 3D vectors.
 
+##### sub
+
+`sub(ref math::Vector3 other) -> math::Vector3`
+
+Subtract two 3D vectors.
+
+##### mul
+
+`mul(ref math::Vector3 other) -> math::Vector3`
+
+Multiply two 3D vectors.
+
+##### div
+
+`div(ref math::Vector3 other) -> math::Vector3`
+
+Divide two 3D vectors.
+
 ### Matrix3x2
 
 ### Matrix4x4
 
 
 ## Functions
-
-### sub
-
-`sub(ref math::Vector2 other) -> math::Vector2`
-
-Subtract two 2D vectors.
-
-### mul
-
-`mul(ref math::Vector2 other) -> math::Vector2`
-
-Multiply two 2D vectors.
-
-### div
-
-`div(ref math::Vector2 other) -> math::Vector2`
-
-Divide two 2D vectors.
-
-### sub
-
-`sub(ref math::Vector3 other) -> math::Vector3`
-
-Subtract two 3D vectors.
-
-### mul
-
-`mul(ref math::Vector3 other) -> math::Vector3`
-
-Multiply two 3D vectors.
-
-### div
-
-`div(ref math::Vector3 other) -> math::Vector3`
-
-Divide two 3D vectors.
 
 ### to_int
 
@@ -86,6 +92,18 @@ Convert string to 32-bit float (supports optional +/- and decimals).
 `min(i32 a, i32 b) -> i32`
 
 Minimum of two 32-bit integers.
+
+### to_bool
+
+`to_bool(string value) -> bool`
+
+Convert string to boolean.
+
+### to_byte
+
+`to_byte(string value) -> u8`
+
+Convert string to 8-bit integer.
 
 ### max
 
