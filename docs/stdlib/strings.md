@@ -18,12 +18,18 @@
 
 Appends a string to the builder.
 
+##### to_string
+
+`to_string() -> string`
+
+Returns the string built by the builder.
+
 
 ## Macros
 
 ### get_char_at_either
 
-`get_char_at_either(name, return_type)`
+`get_char_at_either(name, return_type, ret_one, ret_two)`
 
 Returns the character at a specific index in a string.
 
@@ -35,6 +41,12 @@ Returns the character at a specific index in a string.
 `length(string str) -> int`
 
 Returns the length of a string.
+
+### clone
+
+`clone(string src) -> lstring`
+
+Return owned string copy of src.
 
 ### compare
 

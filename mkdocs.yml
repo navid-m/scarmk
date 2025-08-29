@@ -26,9 +26,11 @@ nav:
         - strings: stdlib/strings.md
         - math: stdlib/math.md
         - io: stdlib/io.md
+        - csv: stdlib/csv.md
         - path: stdlib/path.md
         - crypto: stdlib/crypto.md
         - net: stdlib/net.md
+        - errors: stdlib/errors.md
         - hash: stdlib/hash.md
         - regex: stdlib/regex.md
         - log: stdlib/log.md
@@ -36,6 +38,7 @@ nav:
         - runtime: stdlib/runtime.md
         - random: stdlib/random.md
         - time: stdlib/time.md
+        - typecons: stdlib/typecons.md
         - json: stdlib/json.md
         - fs: stdlib/fs.md
         - os: stdlib/os.md

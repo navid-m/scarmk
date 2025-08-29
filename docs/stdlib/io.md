@@ -7,6 +7,7 @@
 - `std/math`
 - `std/collections`
 - `std/strings`
+- `std/runtime`
 
 ## Functions
 

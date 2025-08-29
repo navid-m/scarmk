@@ -42,12 +42,6 @@ Used in SDBM database and GNU AWK
 CRC32 hash implementation
 Cyclic redundancy check with good error detection
 
-### hash_int
-
-`hash_int(i32 value) -> i32`
-
-Hash function for integers
-
 ### combine_hash
 
 `combine_hash(i32 hash1, i32 hash2) -> i32`
